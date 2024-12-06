@@ -35,7 +35,7 @@ public class TorchServeClient {
     }
 
     public static void main(String[] args) {
-        TorchServeClient client = new TorchServeClient("localhost", 8080);
+        TorchServeClient client = new TorchServeClient("localhost", 7070);
         Map<String, byte[]> inputData = new HashMap<>();
         inputData.put("example_key", "example_input".getBytes());
         byte[] result = client.predict("example_model", inputData);
