@@ -1,5 +1,8 @@
 # GRPC JAVA client library for PyTorch served using TorchServe
 
+## Badges
+[![](https://jitpack.io/v/yourusername/torchserve-client.svg)](https://jitpack.io/#yourusername/torchserve-client)
+
 ## Prerequisites
 Ensure you have Maven installed.
 
