@@ -21,7 +21,6 @@ public class TorchServeClient {
     }
 
     public byte[] predict(String modelName, Map<String, byte[]> inputData) {
-        System.out.println("Sending prediction request to model: " + modelName);
         PredictionsRequest.Builder requestBuilder = PredictionsRequest.newBuilder()
                 .setModelName(modelName);
 
